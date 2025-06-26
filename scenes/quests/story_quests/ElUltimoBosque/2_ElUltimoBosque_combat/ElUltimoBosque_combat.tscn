@@ -17,7 +17,7 @@
 [ext_resource type="Texture2D" uid="uid://bboyofe5jc4xc" path="res://scenes/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Decorations/Rocks/Rock1.png" id="9_grrw3"]
 [ext_resource type="PackedScene" uid="uid://cfcgrfvtn04yp" path="res://scenes/ui_elements/hud/hud.tscn" id="10_pk7st"]
 [ext_resource type="PackedScene" uid="uid://l2uabb8md4x1" path="res://scenes/quests/story_quests/ElUltimoBosque/2_ElUltimoBosque_combat/arboles.tscn" id="11_6rx68"]
-[ext_resource type="Resource" uid="uid://b1x0yak50e02g" path="res://scenes/quests/story_quests/ElUltimoBosque/2_ElUltimoBosque_combat/item3.tres" id="18_vu7cx"]
+[ext_resource type="Resource" uid="uid://don7xcl7qpjva" path="res://scenes/quests/story_quests/ElUltimoBosque/2_ElUltimoBosque_combat/item3.tres" id="18_vu7cx"]
 [ext_resource type="PackedScene" uid="uid://4trauk5snan6" path="res://scenes/quests/story_quests/ElUltimoBosque/2_ElUltimoBosque_combat/avederecha.tscn" id="19_vu7cx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_57xwe"]

@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://cy8n73cmy2cjx"]
+[gd_scene load_steps=3 format=3 uid="uid://cvnjs70go1nfc"]
 
-[ext_resource type="Script" uid="uid://dta7p0tu6lg7u" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/secondary_hud.gd" id="1_hpk5d"]
+[ext_resource type="Script" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/secondary_hud.gd" id="1_hpk5d"]
 [ext_resource type="Texture2D" uid="uid://baelulw1inl6s" path="res://scenes/quests/story_quests/ElUltimoBosque/09.png" id="2_g1g0d"]
 
 [node name="SecondaryHUD" type="Control"]
