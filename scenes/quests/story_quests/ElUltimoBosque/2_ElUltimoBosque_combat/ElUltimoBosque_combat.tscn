@@ -1,7 +1,8 @@
-[gd_scene load_steps=31 format=4 uid="uid://drpg1pub4rsdk"]
+[gd_scene load_steps=33 format=4 uid="uid://drpg1pub4rsdk"]
 
 [ext_resource type="Script" uid="uid://cp54mgi54nywo" path="res://scenes/game_logic/fill_game_logic.gd" id="1_a5g7v"]
 [ext_resource type="Resource" uid="uid://3vrn5jdxov37" path="res://scenes/quests/story_quests/template/2_template_combat/template_combat_components/template_combat.dialogue" id="2_qivhp"]
+[ext_resource type="Resource" uid="uid://cmtqwn6mwfall" path="res://scenes/quests/story_quests/ElUltimoBosque/2_ElUltimoBosque_combat/ElUltimoBosque_combat_components/ElUltimoBosque_combat.dialogue" id="2_u7uyv"]
 [ext_resource type="TileSet" uid="uid://07fq3rspk8ia" path="res://scenes/tileset.tres" id="3_cb3c4"]
 [ext_resource type="Texture2D" uid="uid://blnmgggh54lsx" path="res://scenes/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Terrain/Tilemap_color2.png" id="4_57xwe"]
 [ext_resource type="PackedScene" uid="uid://iu2q66clupc6" path="res://scenes/game_elements/characters/player/player.tscn" id="4_gjygo"]
@@ -19,6 +20,7 @@
 [ext_resource type="PackedScene" uid="uid://cfcgrfvtn04yp" path="res://scenes/ui_elements/hud/hud.tscn" id="10_pk7st"]
 [ext_resource type="PackedScene" uid="uid://l2uabb8md4x1" path="res://scenes/quests/story_quests/ElUltimoBosque/2_ElUltimoBosque_combat/arboles.tscn" id="11_6rx68"]
 [ext_resource type="PackedScene" uid="uid://4trauk5snan6" path="res://scenes/quests/story_quests/ElUltimoBosque/2_ElUltimoBosque_combat/avederecha.tscn" id="19_vu7cx"]
+[ext_resource type="AudioStream" uid="uid://c7eifgh2di72j" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/musica.WAV" id="21_a722x"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_57xwe"]
 size = Vector2(62, 29)
@@ -547,7 +549,7 @@ y_sort_enabled = true
 
 [node name="FillGameLogic" type="Node" parent="."]
 script = ExtResource("1_a5g7v")
-intro_dialogue = ExtResource("2_qivhp")
+intro_dialogue = ExtResource("2_u7uyv")
 metadata/_custom_type_script = "uid://cp54mgi54nywo"
 
 [node name="TileMapLayers" type="Node2D" parent="."]
@@ -564,6 +566,7 @@ tile_map_data = PackedByteArray("AAAGAAkABAABAAUAAAAHAAkABAABAAUAAAAIAAkABAABAAU
 tile_set = ExtResource("3_cb3c4")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="TileMapLayers"]
+visible = false
 position = Vector2(477, 1091)
 collision_layer = 4294967295
 collision_mask = 0
@@ -828,5 +831,10 @@ position = Vector2(799, 58)
 
 [node name="Arboles15" parent="." instance=ExtResource("11_6rx68")]
 position = Vector2(863, 125)
+
+[node name="musica" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("21_a722x")
+volume_db = -19.169
+autoplay = true
 
 [connection signal="goal_reached" from="FillGameLogic" to="OnTheGround/CollectibleItem" method="reveal"]

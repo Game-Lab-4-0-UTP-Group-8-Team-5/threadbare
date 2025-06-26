@@ -1,4 +1,4 @@
-[gd_scene load_steps=95 format=4 uid="uid://euwow6oc8gcn"]
+[gd_scene load_steps=96 format=4 uid="uid://euwow6oc8gcn"]
 
 [ext_resource type="TileSet" uid="uid://07fq3rspk8ia" path="res://scenes/tileset.tres" id="1_cfqmc"]
 [ext_resource type="Texture2D" uid="uid://dfcqo1qmslo5q" path="res://scenes/Pixel Art Top Down - Basic v1.2.0/Texture/TX Props.png" id="2_otqly"]
@@ -45,7 +45,8 @@
 [ext_resource type="Texture2D" uid="uid://bfqjvai7ajhw3" path="res://assets/third_party/tiny-swords/Deco/01.png" id="27_dwbnx"]
 [ext_resource type="Texture2D" uid="uid://i2mhkiqe5vix" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/Tilemap_puerta.png" id="38_2nv3i"]
 [ext_resource type="Texture2D" uid="uid://dslom0xbe1if7" path="res://assets/third_party/tiny-swords/Terrain/Ground/Shadows.png" id="38_gcp23"]
-[ext_resource type="AudioStream" uid="uid://d2sqljfx1qv8x" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/beilstone.WAV" id="39_fdfai"]
+[ext_resource type="AudioStream" uid="uid://c7eifgh2di72j" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/musica.WAV" id="46_2nv3i"]
+[ext_resource type="Resource" uid="uid://dp0k8ll8q514d" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/ElUltimoBosque_sequence_puzzle.dialogue" id="46_h8i2q"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h8i2q"]
 texture = ExtResource("2_otqly")
@@ -4799,14 +4800,14 @@ position_smoothing_enabled = true
 [node name="Cinematic" type="Node2D" parent="."]
 position = Vector2(-1, 0)
 script = ExtResource("19_gg3uk")
-dialogue = ExtResource("16_ptwq2")
+dialogue = ExtResource("46_h8i2q")
 metadata/_custom_type_script = "uid://x1mxt6bmei2o"
 
 [node name="Node" type="Node" parent="."]
 
-[node name="beilstone" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("39_fdfai")
-volume_db = -69.744
+[node name="musica" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("46_2nv3i")
+volume_db = -19.169
 autoplay = true
 
 [connection signal="solved" from="OnTheGround/SequencePuzzle" to="OnTheGround/CollectibleItem" method="reveal"]
