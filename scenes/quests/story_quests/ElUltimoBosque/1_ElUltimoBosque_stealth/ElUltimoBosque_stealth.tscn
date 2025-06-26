@@ -1,4 +1,4 @@
-[gd_scene load_steps=90 format=4 uid="uid://b3oop4r0tuxt7"]
+[gd_scene load_steps=80 format=4 uid="uid://b3oop4r0tuxt7"]
 
 [ext_resource type="Script" uid="uid://dnp0tjloec2d7" path="res://scenes/game_logic/stealth_game_logic.gd" id="1_s72hk"]
 [ext_resource type="TileSet" uid="uid://07fq3rspk8ia" path="res://scenes/tileset.tres" id="2_fqek3"]
@@ -28,12 +28,12 @@
 [ext_resource type="Texture2D" uid="uid://baelulw1inl6s" path="res://scenes/quests/story_quests/ElUltimoBosque/09.png" id="16_83spq"]
 [ext_resource type="Resource" uid="uid://ksocwbq5dowx" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/ElUltimoBosque_stealth_components/ElUltimoBosque_checkpoint.dialogue" id="23_ycp5s"]
 [ext_resource type="Resource" uid="uid://bkqpg50ubhsai" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/ElUltimoBosque_stealth_components/ElUltimoBosque_stealth.dialogue" id="29_0goas"]
+[ext_resource type="Script" uid="uid://d6naeujskfyk" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/CollectibleItemSecondary.gd" id="30_0goas"]
+[ext_resource type="Resource" uid="uid://yglt7emcixkt" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/objeto1.tres" id="30_ycp5s"]
 [ext_resource type="AudioStream" uid="uid://eraygn6ow5lc" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/ElUltimoBosque_stealth_components/beilstone1.WAV" id="31_0goas"]
-[ext_resource type="Resource" uid="uid://bjjmkxw6w321a" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/zapatos.tres" id="33_6qp4n"]
-[ext_resource type="Script" uid="uid://c0tsmn060ymdh" path="res://scenes/ui_elements/story_quest_progress/components/item_slot/components/item_slot.gd" id="33_nrtqh"]
-[ext_resource type="Script" uid="uid://t2oy82j1o8ob" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/objetos_hud.gd" id="33_vbnan"]
-[ext_resource type="Resource" uid="uid://b206h0wdfidwt" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/cinturon.tres" id="34_q0iri"]
-[ext_resource type="Resource" uid="uid://bauo12ub4ocgi" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/guante.tres" id="35_xyvwl"]
+[ext_resource type="Resource" uid="uid://coiwex1434qnn" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/objeto2.tres" id="31_nrtqh"]
+[ext_resource type="Resource" uid="uid://dua4j02gc3uth" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/objeto3.tres" id="32_vbnan"]
+[ext_resource type="PackedScene" uid="uid://cvnjs70go1nfc" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/secondary_hud.tscn" id="33_nrtqh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0goas"]
 texture = ExtResource("3_26kv3")
@@ -8655,261 +8655,6 @@ point_count = 8
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_idy4y"]
 size = Vector2(168.25, 138)
 
-[sub_resource type="Animation" id="Animation_q0iri"]
-resource_name = "RESET"
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(0, 0, 0, 0.690196)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath(".:scale")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(1, 1)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath(".:rotation")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [0.0]
-}
-
-[sub_resource type="Animation" id="Animation_xyvwl"]
-
-[sub_resource type="Animation" id="Animation_04lv3"]
-resource_name = "item_collected"
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(0, 0, 0, 0.690196)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath(".:scale")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(1, 1)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath(".:rotation")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [0.0]
-}
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_xyvwl"]
-_data = {
-&"RESET": SubResource("Animation_q0iri"),
-&"RESET_2": SubResource("Animation_xyvwl"),
-&"item_collected": SubResource("Animation_04lv3")
-}
-
-[sub_resource type="Animation" id="Animation_repfn"]
-resource_name = "RESET"
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(0, 0, 0, 0.690196)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath(".:scale")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(1, 1)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath(".:rotation")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [0.0]
-}
-
-[sub_resource type="Animation" id="Animation_omdkc"]
-resource_name = "item_collected"
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(0, 0, 0, 0.690196)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath(".:scale")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(1, 1)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath(".:rotation")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [0.0]
-}
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_yur2r"]
-_data = {
-&"RESET": SubResource("Animation_repfn"),
-&"item_collected": SubResource("Animation_omdkc")
-}
-
-[sub_resource type="Animation" id="Animation_yur2r"]
-resource_name = "RESET"
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(0, 0, 0, 0.690196)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath(".:scale")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(1, 1)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath(".:rotation")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [0.0]
-}
-
-[sub_resource type="Animation" id="Animation_d3xlj"]
-resource_name = "item_collected"
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(0, 0, 0, 0.690196)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath(".:scale")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(1, 1)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath(".:rotation")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [0.0]
-}
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_04lv3"]
-_data = {
-&"RESET": SubResource("Animation_yur2r"),
-&"item_collected": SubResource("Animation_d3xlj")
-}
-
 [sub_resource type="Resource" id="Resource_idy4y"]
 script = ExtResource("9_ubn6c")
 name = ""
@@ -9111,53 +8856,6 @@ debug_color = Color(0, 0, 0, 0.42)
 
 [node name="ScreenOverlay" type="CanvasLayer" parent="."]
 
-[node name="HUDObjetos" type="CanvasLayer" parent="."]
-layer = 0
-script = ExtResource("33_vbnan")
-
-[node name="ObjetosPanel" type="PanelContainer" parent="HUDObjetos"]
-clip_contents = true
-offset_left = 1042.0
-offset_top = 61.0
-offset_right = 1378.0
-offset_bottom = 145.0
-
-[node name="ItemsContainer_Objetos" type="HBoxContainer" parent="HUDObjetos/ObjetosPanel"]
-layout_mode = 2
-
-[node name="ItemSlot4" type="TextureRect" parent="HUDObjetos/ObjetosPanel/ItemsContainer_Objetos"]
-modulate = Color(0, 0, 0, 0.690196)
-layout_mode = 2
-script = ExtResource("33_nrtqh")
-metadata/_custom_type_script = "uid://c0tsmn060ymdh"
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="HUDObjetos/ObjetosPanel/ItemsContainer_Objetos/ItemSlot4"]
-libraries = {
-&"": SubResource("AnimationLibrary_xyvwl")
-}
-
-[node name="ItemSlot5" type="TextureRect" parent="HUDObjetos/ObjetosPanel/ItemsContainer_Objetos"]
-modulate = Color(0, 0, 0, 0.690196)
-layout_mode = 2
-script = ExtResource("33_nrtqh")
-metadata/_custom_type_script = "uid://c0tsmn060ymdh"
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="HUDObjetos/ObjetosPanel/ItemsContainer_Objetos/ItemSlot5"]
-libraries = {
-&"": SubResource("AnimationLibrary_yur2r")
-}
-
-[node name="ItemSlot6" type="TextureRect" parent="HUDObjetos/ObjetosPanel/ItemsContainer_Objetos"]
-modulate = Color(0, 0, 0, 0.690196)
-layout_mode = 2
-script = ExtResource("33_nrtqh")
-metadata/_custom_type_script = "uid://c0tsmn060ymdh"
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="HUDObjetos/ObjetosPanel/ItemsContainer_Objetos/ItemSlot6"]
-libraries = {
-&"": SubResource("AnimationLibrary_04lv3")
-}
-
 [node name="HUD" parent="." instance=ExtResource("7_vpqhm")]
 
 [node name="CollectibleItem" parent="." instance=ExtResource("8_m76s4")]
@@ -9178,13 +8876,22 @@ stream = ExtResource("31_0goas")
 volume_db = -31.105
 
 [node name="CollectibleItem2" parent="." instance=ExtResource("8_m76s4")]
-position = Vector2(1584.18, 332)
-item = ExtResource("33_6qp4n")
+position = Vector2(1584.18, 333)
+script = ExtResource("30_0goas")
+item = ExtResource("30_ycp5s")
 
 [node name="CollectibleItem3" parent="." instance=ExtResource("8_m76s4")]
 position = Vector2(1514.27, 1691.17)
-item = ExtResource("34_q0iri")
+script = ExtResource("30_0goas")
+item = ExtResource("31_nrtqh")
 
 [node name="CollectibleItem4" parent="." instance=ExtResource("8_m76s4")]
 position = Vector2(2338, 1340)
-item = ExtResource("35_xyvwl")
+script = ExtResource("30_0goas")
+item = ExtResource("32_vbnan")
+
+[node name="SecondaryHUD" parent="." instance=ExtResource("33_nrtqh")]
+offset_left = 296.0
+offset_top = 217.0
+offset_right = 523.0
+offset_bottom = 334.0
