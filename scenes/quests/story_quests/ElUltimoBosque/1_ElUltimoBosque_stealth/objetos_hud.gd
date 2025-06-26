@@ -1,34 +1,30 @@
+# ElUltimoBosqueHUDObjetos.gd
 extends CanvasLayer
-@onready var objetos_panel: PanelContainer = $ObjetosPanel
+class_name ElUltimoBosqueHUDObjetos
 
-@onready var items_container: HBoxContainer = $ObjetosPanel/ItemsContainer_Objetos
+@onready var items_container: HBoxContainer = $PanelContainer/ItemsContainer_Objetos
+var objetos_mostrados: Array[InventoryItem] = []
+signal todos_objetos_recolectados
 
 func _ready() -> void:
-	GameState.collected_items_changed.connect(_on_collected_items_changed)
-	_load_object_items()
+	add_to_group("HUDObjetos")
+func agregar_objeto(item: InventoryItem) -> void:
+	if item is ElUltimoBosqueObjetoInventoryItem:  # 👈 Este tipo es exclusivo para objetos
+		# Ya fue agregado
+		if objetos_mostrados.any(func(i): return i.same_type_as(item)):
+			return
 
-func _on_collected_items_changed(_items: Array[InventoryItem]) -> void:
-	_load_object_items()
-func _load_object_items() -> void:
-	var inventory_items := GameState.items_collected()
-	var objetos := inventory_items.filter(func(item):
-		return item.type in [
-			InventoryItem.ItemType.GLOVE,
-			InventoryItem.ItemType.SHOES,
-			InventoryItem.ItemType.BELT
-		]
-	)
-	var slots := items_container.get_children()
+		# Mostrar en HUD
+		var icon := TextureRect.new()
+		icon.texture = item.get_world_texture()
+		icon.custom_minimum_size = Vector2(64, 64)
+		icon.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		items_container.add_child(icon)
 
-	# Limpiar todos los slots antes de rellenar
-	for slot in slots:
-		if slot is ItemSlot:
-			slot.free_slot()
+		objetos_mostrados.append(item)
+		print("🎒 Objeto agregado al HUD de objetos:", item)
 
-	for i in range(objetos.size()):
-		if i >= slots.size():
-			break
-
-		var slot = slots[i]
-		if slot is ItemSlot:
-			slot.start_as_filled(objetos[i])
+		if objetos_mostrados.size() >= 3:
+			emit_signal("todos_objetos_recolectados")
+	else:
+		print("❌ Este ítem NO es objeto, no se agregará al HUD objetos:", item)

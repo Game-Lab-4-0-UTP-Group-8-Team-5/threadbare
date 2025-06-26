@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bgce3qns72g3m"]
 
-[ext_resource type="Texture2D" uid="uid://crddup3m6hwbm" path="res://scenes/game_elements/props/projectile/components/ink_particle.png" id="1_lsmma"]
+[ext_resource type="Texture2D" uid="uid://crddup3m6hwbm" path="res://scenes/quests/story_quests/props/projectile/components/ink_particle.png" id="1_lsmma"]
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_eoqba"]
 particles_animation = true

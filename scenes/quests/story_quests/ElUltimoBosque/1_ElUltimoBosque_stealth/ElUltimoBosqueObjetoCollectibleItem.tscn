@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://ds1ey66xvr0ch"]
+
+[ext_resource type="Resource" uid="uid://deoo64naw5cfg" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/cinturon.tres" id="2_h334c"]
+
+[sub_resource type="GDScript" id="GDScript_qdqjg"]
+script/source = "extends \"res://scenes/game_elements/props/collectible_item/components/collectible_item.gd\"
+class_name ElUltimoBosqueObjetoCollectibleItem
+
+func _ready() -> void:
+	super._ready()
+	item_collected.connect(_on_item_recolectado)
+
+func _on_item_recolectado(collected_item: InventoryItem) -> void:
+	if collected_item is ElUltimoBosqueObjetoItem:
+		var hud := get_tree().get_first_node_in_group(\"HUDObjetos\")
+		if hud:
+			hud.agregar_objeto(collected_item)
+"
+
+[node name="ElUltimoBosqueObjetoCollectibleItem" type="Node2D"]
+script = SubResource("GDScript_qdqjg")
+next_scene = null
+item = ExtResource("2_h334c")
+dialogue_title = null

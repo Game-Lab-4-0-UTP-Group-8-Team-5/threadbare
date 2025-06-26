@@ -1,4 +1,4 @@
-[gd_scene load_steps=95 format=4 uid="uid://euwow6oc8gcn"]
+[gd_scene load_steps=96 format=4 uid="uid://euwow6oc8gcn"]
 
 [ext_resource type="TileSet" uid="uid://07fq3rspk8ia" path="res://scenes/tileset.tres" id="1_cfqmc"]
 [ext_resource type="Texture2D" uid="uid://dfcqo1qmslo5q" path="res://scenes/Pixel Art Top Down - Basic v1.2.0/Texture/TX Props.png" id="2_otqly"]
@@ -6,26 +6,25 @@
 [ext_resource type="Script" uid="uid://c68oh8dtr21ti" path="res://scenes/game_logic/sequence_puzzle.gd" id="3_802lm"]
 [ext_resource type="Texture2D" uid="uid://n6fjuqkgfd5x" path="res://scenes/Pixel Art Top Down - Basic v1.2.0/Texture/Extra/TX Plant.png" id="3_fdfai"]
 [ext_resource type="Texture2D" uid="uid://c6p6ufv0v0puk" path="res://scenes/Pixel Art Top Down - Basic v1.2.0/Texture/TX Player.png" id="4_ju83m"]
-[ext_resource type="PackedScene" uid="uid://b8sok264erfoc" path="res://scenes/game_elements/props/sequence_puzzle_object/sequence_puzzle_object.tscn" id="4_sch8c"]
+[ext_resource type="PackedScene" uid="uid://b8sok264erfoc" path="res://scenes/quests/story_quests/props/sequence_puzzle_object/sequence_puzzle_object.tscn" id="4_sch8c"]
 [ext_resource type="AudioStream" uid="uid://cg57q82pb243w" path="res://assets/third_party/xylophone-sampler-pack/xylophone-c3.ogg" id="5_5w5g7"]
-[ext_resource type="Texture2D" uid="uid://bboyofe5jc4xc" path="res://scenes/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Decorations/Rocks/Rock1.png" id="5_f7bjo"]
+[ext_resource type="Texture2D" uid="uid://bboyofe5jc4xc" path="res://Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Decorations/Rocks/Rock1.png" id="5_f7bjo"]
 [ext_resource type="AudioStream" uid="uid://b83x8h0ob5mpq" path="res://assets/third_party/xylophone-sampler-pack/xylophone-d3.ogg" id="6_cd1r1"]
-[ext_resource type="Texture2D" uid="uid://n3j8xn23jajl" path="res://scenes/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Decorations/Trees/Tree4.png" id="6_fonfv"]
+[ext_resource type="Texture2D" uid="uid://n3j8xn23jajl" path="res://Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Decorations/Trees/Tree4.png" id="6_fonfv"]
 [ext_resource type="AudioStream" uid="uid://cmtiwg2cylmts" path="res://assets/third_party/xylophone-sampler-pack/xylophone-e3.ogg" id="7_vt02y"]
 [ext_resource type="AudioStream" uid="uid://8k1hyi4gjae4" path="res://assets/third_party/xylophone-sampler-pack/xylophone-f3.ogg" id="8_cu5nb"]
 [ext_resource type="AudioStream" uid="uid://6oahn2ucxxjv" path="res://assets/third_party/xylophone-sampler-pack/xylophone-g3.ogg" id="9_4f2bf"]
 [ext_resource type="Texture2D" uid="uid://dwglmc0l03ass" path="res://scenes/Pixel Art Top Down - Basic v1.2.0/Texture/TX Shadow Plant.png" id="9_hgyq6"]
 [ext_resource type="AudioStream" uid="uid://bdboi4ndapqec" path="res://assets/third_party/xylophone-sampler-pack/xylophone-a3.ogg" id="10_xwvic"]
-[ext_resource type="PackedScene" uid="uid://be4o3ythda4cu" path="res://scenes/game_elements/props/sequence_puzzle_hint_sign/sequence_puzzle_hint_sign.tscn" id="11_ig5k6"]
+[ext_resource type="PackedScene" uid="uid://be4o3ythda4cu" path="res://scenes/quests/story_quests/props/sequence_puzzle_hint_sign/sequence_puzzle_hint_sign.tscn" id="11_ig5k6"]
 [ext_resource type="SpriteFrames" uid="uid://bhcgkxhy4cqf4" path="res://scenes/quests/story_quests/template/3_template_sequence_puzzle/template_sign_2.tres" id="12_gvu8y"]
 [ext_resource type="Script" uid="uid://ccc78coj2b1li" path="res://scenes/game_logic/sequence_puzzle_step.gd" id="13_mi3la"]
 [ext_resource type="Texture2D" uid="uid://bhqanyxhpxpm" path="res://assets/first_party/rocks/Rock_Idle.png" id="14_dwbnx"]
 [ext_resource type="Script" uid="uid://b7j5vf4n3qfxc" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/RocasPuzzle.gd" id="14_fmak2"]
-[ext_resource type="PackedScene" uid="uid://fuhl3l6gxq5k" path="res://scenes/game_elements/props/collectible_item/collectible_item.tscn" id="14_tcvxo"]
-[ext_resource type="Script" uid="uid://bgmwplmj3bfls" path="res://scenes/globals/game_state/inventory/inventory_item.gd" id="15_kph77"]
+[ext_resource type="PackedScene" uid="uid://fuhl3l6gxq5k" path="res://scenes/quests/story_quests/props/collectible_item/collectible_item.tscn" id="14_tcvxo"]
 [ext_resource type="Texture2D" uid="uid://bmdco7ed76w3n" path="res://scenes/Pixel Art Top Down - Basic v1.2.0/Texture/TX Struct.png" id="16_2elm4"]
 [ext_resource type="Resource" uid="uid://bb1g8ftnxjhvh" path="res://scenes/quests/story_quests/template/3_template_sequence_puzzle/template_sequence_puzzle.dialogue" id="16_ptwq2"]
-[ext_resource type="PackedScene" uid="uid://covsdqqsd6rsy" path="res://scenes/game_elements/props/sign/sign.tscn" id="17_5m326"]
+[ext_resource type="PackedScene" uid="uid://covsdqqsd6rsy" path="res://scenes/quests/story_quests/props/sign/sign.tscn" id="17_5m326"]
 [ext_resource type="Texture2D" uid="uid://bxvwekdb88qwm" path="res://scenes/Pixel Art Top Down - Basic v1.2.0/Texture/TX Shadow.png" id="17_gcp23"]
 [ext_resource type="Texture2D" uid="uid://g22t8crt6k52" path="res://scenes/Pixel Art Top Down - Basic v1.2.0/Texture/TX Tileset Grass.png" id="18_2nv3i"]
 [ext_resource type="PackedScene" uid="uid://cfcgrfvtn04yp" path="res://scenes/ui_elements/hud/hud.tscn" id="18_6ycc1"]
@@ -46,6 +45,8 @@
 [ext_resource type="Texture2D" uid="uid://i2mhkiqe5vix" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/Tilemap_puerta.png" id="38_2nv3i"]
 [ext_resource type="Texture2D" uid="uid://dslom0xbe1if7" path="res://assets/third_party/tiny-swords/Terrain/Ground/Shadows.png" id="38_gcp23"]
 [ext_resource type="AudioStream" uid="uid://d2sqljfx1qv8x" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/beilstone.WAV" id="39_fdfai"]
+[ext_resource type="Script" uid="uid://cn2ofwun2lvmp" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/ElUltimoBosque_inventory_item.gd" id="41_2nv3i"]
+[ext_resource type="Script" uid="uid://g3todxkuassd" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/ElUltimoBosqueCollectibleItemObjeto.gd" id="41_h8i2q"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h8i2q"]
 texture = ExtResource("2_otqly")
@@ -4556,12 +4557,12 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="Resource" id="Resource_gcp23"]
-script = ExtResource("15_kph77")
-name = ""
+[sub_resource type="Resource" id="Resource_1bgs3"]
+script = ExtResource("41_2nv3i")
+source_game = 2
+name = "Killian"
 type = 0
-source_game = 1
-metadata/_custom_type_script = "uid://bgmwplmj3bfls"
+metadata/_custom_type_script = "uid://cn2ofwun2lvmp"
 
 [node name="SequencePuzzleTemplate" type="Node2D"]
 
@@ -4776,11 +4777,12 @@ sprite_frames = SubResource("SpriteFrames_kx6lo")
 
 [node name="CollectibleItem" parent="OnTheGround" instance=ExtResource("14_tcvxo")]
 position = Vector2(1461, 737)
-revealed = false
-next_scene = "uid://b3oop4r0tuxt7"
-item = SubResource("Resource_gcp23")
-collected_dialogue = ExtResource("16_ptwq2")
-dialogue_title = &"well_done"
+script = ExtResource("41_h8i2q")
+revealed = true
+next_scene = ""
+item = SubResource("Resource_1bgs3")
+collected_dialogue = null
+dialogue_title = &""
 
 [node name="Sign" parent="OnTheGround" instance=ExtResource("17_5m326")]
 position = Vector2(412, 498)
@@ -4790,6 +4792,7 @@ text = "First melody: yellow, green, blue."
 [node name="ScreenOverlay" type="CanvasLayer" parent="."]
 
 [node name="HUD" parent="." instance=ExtResource("18_6ycc1")]
+layer = 0
 
 [node name="Camera2D" type="Camera2D" parent="."]
 anchor_mode = 0

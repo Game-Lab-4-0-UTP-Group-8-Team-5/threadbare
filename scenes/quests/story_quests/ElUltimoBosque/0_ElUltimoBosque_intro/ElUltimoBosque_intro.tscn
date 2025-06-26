@@ -4,7 +4,7 @@
 [ext_resource type="SpriteFrames" uid="uid://vwf8e1v8brdp" path="res://scenes/quests/story_quests/template/template_player_components/template_player.tres" id="3_kcah0"]
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="4_e8pjd"]
 [ext_resource type="Resource" uid="uid://brvu36iw0raer" path="res://scenes/quests/story_quests/ElUltimoBosque/0_ElUltimoBosque_intro/ElUltimoBosque_intro_components/ElUltimoBosque_intro.dialogue" id="5_70r05"]
-[ext_resource type="PackedScene" uid="uid://v3usqiwy5wpr" path="res://scenes/game_elements/props/decoration/rock/rock.tscn" id="6_klb7d"]
+[ext_resource type="PackedScene" uid="uid://v3usqiwy5wpr" path="res://scenes/quests/story_quests/props/decoration/rock/rock.tscn" id="6_klb7d"]
 [ext_resource type="Texture2D" uid="uid://of7tskinoot3" path="res://scenes/quests/story_quests/ElUltimoBosque/nuevasEntidades/Trees/Tree.png" id="7_10iok"]
 [ext_resource type="AudioStream" uid="uid://ccry1r5nrnnej" path="res://scenes/quests/story_quests/ElUltimoBosque/beilstone-116426.wav" id="8_10iok"]
 [ext_resource type="Texture2D" uid="uid://doc4qg7e3kgs" path="res://assets/third_party/tiny-swords/Terrain/Water/Water.png" id="8_f7sy0"]

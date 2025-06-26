@@ -1,10 +1,11 @@
-[gd_resource type="Resource" script_class="InventoryItem" load_steps=2 format=3 uid="uid://bauo12ub4ocgi"]
+[gd_resource type="Resource" script_class="ElUltimoBosqueObjetoInventoryItem" load_steps=2 format=3 uid="uid://cggqp5a5bojqj"]
 
-[ext_resource type="Script" uid="uid://bgmwplmj3bfls" path="res://scenes/globals/game_state/inventory/inventory_item.gd" id="1_twmo7"]
+[ext_resource type="Script" uid="uid://bxpbgaxmtsmlc" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/ElUltimoBosque_ObjetoInventoryItem.gd" id="1_twmo7"]
 
 [resource]
-resource_name = "Guante"
+resource_name = "guante"
 script = ExtResource("1_twmo7")
-name = ""
-type = 3
-source_game = 0
+tipo_objeto = 2
+name = "guante"
+type = 1
+metadata/_custom_type_script = "uid://cn2ofwun2lvmp"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ElUltimoBosquePersonajeItem" load_steps=2 format=3 uid="uid://cel3l6nt1pd7u"]
+
+[ext_resource type="Script" uid="uid://cn2ofwun2lvmp" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/ElUltimoBosque_inventory_item.gd" id="1_ai17n"]
+
+[resource]
+script = ExtResource("1_ai17n")
+source_game = 3
+name = "Mia"
+type = 0
+metadata/_custom_type_script = "uid://cn2ofwun2lvmp"

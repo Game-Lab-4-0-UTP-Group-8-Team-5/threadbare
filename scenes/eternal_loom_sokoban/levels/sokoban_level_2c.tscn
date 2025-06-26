@@ -5,7 +5,7 @@
 [ext_resource type="Material" uid="uid://jpl3v3f7elq6" path="res://scenes/eternal_loom_sokoban/components/floor/tiled_mat.tres" id="2_x2dnf"]
 [ext_resource type="PackedScene" uid="uid://btpeaqx2nur3q" path="res://scenes/eternal_loom_sokoban/components/eternal_loom_ruleset.tscn" id="4_cjklm"]
 [ext_resource type="PackedScene" uid="uid://b4d5rf6hn0x4" path="res://scenes/eternal_loom_sokoban/components/hud/sokoban_hud.tscn" id="4_hvy7k"]
-[ext_resource type="PackedScene" uid="uid://2rbpl811wlv1" path="res://scenes/game_elements/props/background_music/background_music.tscn" id="6_x2dnf"]
+[ext_resource type="PackedScene" uid="uid://2rbpl811wlv1" path="res://scenes/quests/story_quests/props/background_music/background_music.tscn" id="6_x2dnf"]
 [ext_resource type="AudioStream" uid="uid://bbamdm6wtjjcn" path="res://assets/first_party/music/Threadbare_Bed.ogg" id="7_pxo7o"]
 
 [node name="SokobanLevel2c" type="Node2D"]

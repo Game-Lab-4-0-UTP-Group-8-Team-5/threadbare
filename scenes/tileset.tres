@@ -11,9 +11,9 @@
 [ext_resource type="Texture2D" uid="uid://bx0rjuka8krb5" path="res://assets/third_party/tiny-swords/Terrain/Ground/Tilemap_Elevation.png" id="6_qhdiu"]
 [ext_resource type="Texture2D" uid="uid://pkm6smjl8861" path="res://assets/first_party/tiles/Grass_Tiles_Light.png" id="6_yc5yt"]
 [ext_resource type="Texture2D" uid="uid://dcq6v7mx3h1fl" path="res://assets/first_party/tiles/Dirt_Tiles.png" id="7_1srhd"]
-[ext_resource type="Texture2D" uid="uid://blnmgggh54lsx" path="res://scenes/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Terrain/Tilemap_color2.png" id="7_em2qm"]
+[ext_resource type="Texture2D" uid="uid://blnmgggh54lsx" path="res://Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Terrain/Tilemap_color2.png" id="7_em2qm"]
 [ext_resource type="Texture2D" uid="uid://cledckq31klvq" path="res://assets/first_party/tiles/Cliff_Mines_Tiles.png" id="8_l50s2"]
-[ext_resource type="Texture2D" uid="uid://d4nu8oa5y2od3" path="res://scenes/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Terrain/Water Background color.png" id="8_rtvgy"]
+[ext_resource type="Texture2D" uid="uid://d4nu8oa5y2od3" path="res://Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Terrain/Water Background color.png" id="8_rtvgy"]
 [ext_resource type="Texture2D" uid="uid://r7scukca5yro" path="res://assets/first_party/tiles/Void_Tiles_Empty.png" id="9_hqjx3"]
 [ext_resource type="Texture2D" uid="uid://cn2j018vohdap" path="res://assets/first_party/tiles/Void_Tiles_Stars_Level1.png" id="10_kbenk"]
 

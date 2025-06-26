@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ElUltimoBosquePersonajeItem" load_steps=2 format=3 uid="uid://bhli66f0vcrmb"]
+
+[ext_resource type="Script" uid="uid://cn2ofwun2lvmp" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/ElUltimoBosque_inventory_item.gd" id="1_gis3a"]
+
+[resource]
+script = ExtResource("1_gis3a")
+source_game = 2
+name = "Killian"
+type = 0
+metadata/_custom_type_script = "uid://cn2ofwun2lvmp"

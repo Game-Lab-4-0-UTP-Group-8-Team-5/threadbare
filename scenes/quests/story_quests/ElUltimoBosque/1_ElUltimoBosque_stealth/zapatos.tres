@@ -1,10 +1,11 @@
-[gd_resource type="Resource" script_class="InventoryItem" load_steps=2 format=3 uid="uid://bjjmkxw6w321a"]
+[gd_resource type="Resource" script_class="ElUltimoBosqueObjetoInventoryItem" load_steps=2 format=3 uid="uid://cbhvl4uk44u34"]
 
-[ext_resource type="Script" uid="uid://bgmwplmj3bfls" path="res://scenes/globals/game_state/inventory/inventory_item.gd" id="1_x6no5"]
+[ext_resource type="Script" uid="uid://bxpbgaxmtsmlc" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/ElUltimoBosque_ObjetoInventoryItem.gd" id="1_x6no5"]
 
 [resource]
-resource_name = "Zapatos"
+resource_name = "zapatos"
 script = ExtResource("1_x6no5")
-name = ""
-type = 4
-source_game = 0
+tipo_objeto = 1
+name = "zapatos"
+type = 0
+metadata/_custom_type_script = "uid://bxpbgaxmtsmlc"

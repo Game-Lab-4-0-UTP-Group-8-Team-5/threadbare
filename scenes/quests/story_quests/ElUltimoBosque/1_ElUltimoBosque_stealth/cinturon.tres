@@ -1,10 +1,10 @@
-[gd_resource type="Resource" script_class="InventoryItem" load_steps=2 format=3 uid="uid://b206h0wdfidwt"]
+[gd_resource type="Resource" script_class="ElUltimoBosqueObjetoInventoryItem" load_steps=2 format=3 uid="uid://deoo64naw5cfg"]
 
-[ext_resource type="Script" uid="uid://bgmwplmj3bfls" path="res://scenes/globals/game_state/inventory/inventory_item.gd" id="1_ph80s"]
+[ext_resource type="Script" uid="uid://bxpbgaxmtsmlc" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/ElUltimoBosque_ObjetoInventoryItem.gd" id="1_ph80s"]
 
 [resource]
-resource_name = "Cinturon"
 script = ExtResource("1_ph80s")
-name = ""
-type = 5
-source_game = 0
+tipo_objeto = 3
+name = "cinturon"
+type = 2
+metadata/_custom_type_script = "uid://bxpbgaxmtsmlc"

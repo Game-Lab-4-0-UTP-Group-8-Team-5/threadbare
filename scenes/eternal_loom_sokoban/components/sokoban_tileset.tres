@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://bbjg1gjpdb8cy" path="res://scenes/eternal_loom_sokoban/components/wall/wall_2.tscn" id="1_tdg3x"]
 [ext_resource type="PackedScene" uid="uid://eqryk50e37b2" path="res://scenes/eternal_loom_sokoban/components/clump/clump_target.tscn" id="4_p0frn"]
-[ext_resource type="Texture2D" uid="uid://bboyofe5jc4xc" path="res://scenes/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Decorations/Rocks/Rock1.png" id="6_ivdhp"]
+[ext_resource type="Texture2D" uid="uid://bboyofe5jc4xc" path="res://Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Decorations/Rocks/Rock1.png" id="6_ivdhp"]
 [ext_resource type="PackedScene" uid="uid://bw2bk7hvohx53" path="res://scenes/eternal_loom_sokoban/components/player/sokoban_player.tscn" id="8_a37yu"]
 [ext_resource type="Texture2D" uid="uid://cngn8vxpim77v" path="res://assets/third_party/tiny-swords/Deco/02.png" id="8_byh37"]
 [ext_resource type="Texture2D" uid="uid://cw330muutqql7" path="res://assets/third_party/tiny-swords/Deco/05.png" id="9_a8amo"]
