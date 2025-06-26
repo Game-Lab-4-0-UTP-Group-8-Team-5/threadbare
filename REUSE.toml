@@ -5,8 +5,6 @@ version = 1
 [[annotations]]
 path = [
 	"scenes/**/*.uid",
-    "addons/**/*.uid",
-    "scenes/**/*.uid",
 ]
 SPDX-FileCopyrightText = "NONE"
 SPDX-License-Identifier = "CC0-1.0"
@@ -23,13 +21,6 @@ path = [
 	"scenes/**/*.aseprite",
 	# .import files are largely machine-generated but developers can tweak their contents
 	"**/*.import",
-    "addons/git_lfs_checker/plugin.cfg",
-    "addons/sprite_frames_exported_textures/plugin.cfg",
-    "scenes/*.tscn",
-    "scenes/**/*.tscn",
-    "scenes/**/*.tres",
-    # .import files are largely machine-generated but developers can tweak their contents
-    "**/*.import",
 ]
 SPDX-FileCopyrightText = "The Threadbare Authors"
 SPDX-License-Identifier = "MPL-2.0"

@@ -6,9 +6,7 @@
 [resource]
 script = ExtResource("1_4e4qu")
 title = "StoryQuest Template"
-description = "This is a template which guides you through making your own StoryQuest.
-
-Best used in the Godot Engine editor."
+description = "This is a template which guides you through making your own StoryQuest."
 authors = Array[String]([])
 affiliation = ""
 first_scene = "uid://c1gdct760l86h"
