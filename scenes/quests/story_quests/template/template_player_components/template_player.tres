@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=43 format=3 uid="uid://vwf8e1v8brdp"]
+[gd_resource type="SpriteFrames" load_steps=48 format=3 uid="uid://vwf8e1v8brdp"]
 
 [ext_resource type="Texture2D" uid="uid://dui4hjsac7axy" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/ElUltimoBosque_stealth_components/ataque/1.png" id="1_stahy"]
 [ext_resource type="Texture2D" uid="uid://plijpvu4t457" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/ElUltimoBosque_stealth_components/ataque/2.png" id="2_qpe4y"]
@@ -23,8 +23,13 @@
 [ext_resource type="Texture2D" uid="uid://dv8npsy8veo28" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/derrota/5.png" id="9_s5d6j"]
 [ext_resource type="Texture2D" uid="uid://b48vkyyxhmel5" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/caminar/7.png" id="10_c63s3"]
 [ext_resource type="Texture2D" uid="uid://cb7xorp58il0v" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/idle/8.png" id="10_kaewf"]
+[ext_resource type="Texture2D" uid="uid://bim60ds8k78xe" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/derrota/7.png" id="10_stahy"]
 [ext_resource type="Texture2D" uid="uid://bb05ey7pos3wu" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/idle/9.png" id="11_3iva5"]
+[ext_resource type="Texture2D" uid="uid://c2e60vxwwpcwb" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/derrota/6.png" id="11_qpe4y"]
 [ext_resource type="Texture2D" uid="uid://ds4tsjdoqdp12" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/idle/10.png" id="12_acqxw"]
+[ext_resource type="Texture2D" uid="uid://c2d2r5mqlv5ej" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/derrota/8.png" id="12_s1n7w"]
+[ext_resource type="Texture2D" uid="uid://dy2to45qq23gb" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/derrota/9.png" id="13_l662q"]
+[ext_resource type="Texture2D" uid="uid://c335k43ba6w86" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/derrota/10.png" id="14_7obxm"]
 [ext_resource type="Texture2D" uid="uid://bd1qyvih4n1gs" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/derrota/11.png" id="15_b4yg2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bubfe"]
@@ -125,6 +130,21 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("9_s5d6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_stahy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_qpe4y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_s1n7w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_l662q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_7obxm")
 }, {
 "duration": 1.0,
 "texture": ExtResource("15_b4yg2")
