@@ -71,5 +71,5 @@ tile_set = SubResource("TileSet_pmc5y")
 
 [node name="Beilstone-116427" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("7_mmtw6")
-volume_db = -8.465
+volume_db = -19.415
 autoplay = true
