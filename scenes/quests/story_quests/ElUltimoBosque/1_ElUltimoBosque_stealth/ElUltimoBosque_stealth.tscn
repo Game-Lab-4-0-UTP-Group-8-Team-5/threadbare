@@ -1,4 +1,4 @@
-[gd_scene load_steps=81 format=4 uid="uid://b3oop4r0tuxt7"]
+[gd_scene load_steps=80 format=4 uid="uid://b3oop4r0tuxt7"]
 
 [ext_resource type="Script" uid="uid://dnp0tjloec2d7" path="res://scenes/game_logic/stealth_game_logic.gd" id="1_s72hk"]
 [ext_resource type="TileSet" uid="uid://07fq3rspk8ia" path="res://scenes/tileset.tres" id="2_fqek3"]
@@ -17,7 +17,6 @@
 [ext_resource type="Texture2D" uid="uid://dsytbwy3sbfgr" path="res://scenes/Pixel Art Top Down - Basic v1.2.0/TX Tileset Wall.png" id="8_0goas"]
 [ext_resource type="PackedScene" uid="uid://fuhl3l6gxq5k" path="res://scenes/game_elements/props/collectible_item/collectible_item.tscn" id="8_m76s4"]
 [ext_resource type="Texture2D" uid="uid://ctcwd5ug7ta8s" path="res://scenes/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Buildings/Black Buildings/House1.png" id="9_6ycr1"]
-[ext_resource type="Script" uid="uid://bgmwplmj3bfls" path="res://scenes/globals/game_state/inventory/inventory_item.gd" id="9_ubn6c"]
 [ext_resource type="Texture2D" uid="uid://d4nu8oa5y2od3" path="res://scenes/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Terrain/Water Background color.png" id="10_3vv5u"]
 [ext_resource type="Resource" uid="uid://dpv4wurvaamhb" path="res://scenes/quests/story_quests/template/1_template_stealth/template_stealth_components/template_collected.dialogue" id="10_jf0du"]
 [ext_resource type="Script" uid="uid://x1mxt6bmei2o" path="res://scenes/ui_elements/cinematic/cinematic.gd" id="11_kgr11"]
@@ -27,6 +26,7 @@
 [ext_resource type="Texture2D" uid="uid://n6fjuqkgfd5x" path="res://scenes/Pixel Art Top Down - Basic v1.2.0/Texture/Extra/TX Plant.png" id="15_m5og0"]
 [ext_resource type="Texture2D" uid="uid://baelulw1inl6s" path="res://scenes/quests/story_quests/ElUltimoBosque/09.png" id="16_83spq"]
 [ext_resource type="Resource" uid="uid://ksocwbq5dowx" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/ElUltimoBosque_stealth_components/ElUltimoBosque_checkpoint.dialogue" id="23_ycp5s"]
+[ext_resource type="Resource" uid="uid://bt1sbpfg8k6vi" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/item2.tres" id="25_6qp4n"]
 [ext_resource type="Resource" uid="uid://bkqpg50ubhsai" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/ElUltimoBosque_stealth_components/ElUltimoBosque_stealth.dialogue" id="29_0goas"]
 [ext_resource type="Script" uid="uid://d6naeujskfyk" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/CollectibleItemSecondary.gd" id="30_0goas"]
 [ext_resource type="Resource" uid="uid://yglt7emcixkt" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/objeto1.tres" id="30_ycp5s"]
@@ -8656,13 +8656,6 @@ point_count = 8
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_idy4y"]
 size = Vector2(168.25, 138)
 
-[sub_resource type="Resource" id="Resource_idy4y"]
-script = ExtResource("9_ubn6c")
-name = ""
-type = 0
-source_game = 2
-metadata/_custom_type_script = "uid://bgmwplmj3bfls"
-
 [node name="StealthTemplateLevel" type="Node2D"]
 y_sort_enabled = true
 
@@ -8862,7 +8855,7 @@ debug_color = Color(0, 0, 0, 0.42)
 [node name="CollectibleItem" parent="." instance=ExtResource("8_m76s4")]
 position = Vector2(218, 286)
 next_scene = "uid://drpg1pub4rsdk"
-item = SubResource("Resource_idy4y")
+item = ExtResource("25_6qp4n")
 collected_dialogue = ExtResource("10_jf0du")
 
 [node name="Cinematic" type="Node2D" parent="."]
