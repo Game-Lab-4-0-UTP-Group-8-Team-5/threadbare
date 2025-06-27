@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dnmelx8ueugbr"
-path="res://.godot/imported/4.png-02e24a4f7f6f188ee71edecf39b6b4ce.ctex"
+uid="uid://dcbmj3iyuh8h0"
+path="res://.godot/imported/3.png-aef274a2a12a9ebc943b2aa786050d74.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://scenes/quests/story_quests/ElUltimoBosque/2_ElUltimoBosque_combat/ataque/4.png"
-dest_files=["res://.godot/imported/4.png-02e24a4f7f6f188ee71edecf39b6b4ce.ctex"]
+source_file="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/derrota/3.png"
+dest_files=["res://.godot/imported/3.png-aef274a2a12a9ebc943b2aa786050d74.ctex"]
 
 [params]
 

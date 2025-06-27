@@ -1,34 +1,31 @@
-[gd_resource type="SpriteFrames" load_steps=40 format=3 uid="uid://vwf8e1v8brdp"]
+[gd_resource type="SpriteFrames" load_steps=43 format=3 uid="uid://vwf8e1v8brdp"]
 
-[ext_resource type="Texture2D" uid="uid://dui4hjsac7axy" path="res://scenes/quests/story_quests/ElUltimoBosque/2_ElUltimoBosque_combat/ataque/1.png" id="1_w27rc"]
-[ext_resource type="Texture2D" uid="uid://plijpvu4t457" path="res://scenes/quests/story_quests/ElUltimoBosque/2_ElUltimoBosque_combat/ataque/2.png" id="2_6wpxs"]
-[ext_resource type="Texture2D" uid="uid://dly3ikrx05f0x" path="res://scenes/quests/story_quests/template/template_player_components/template_player_defeated.png" id="2_qxir4"]
+[ext_resource type="Texture2D" uid="uid://dui4hjsac7axy" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/ElUltimoBosque_stealth_components/ataque/1.png" id="1_stahy"]
+[ext_resource type="Texture2D" uid="uid://plijpvu4t457" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/ElUltimoBosque_stealth_components/ataque/2.png" id="2_qpe4y"]
 [ext_resource type="Texture2D" uid="uid://47ajx5kc67d0" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/idle/1.png" id="3_rlbwo"]
-[ext_resource type="Texture2D" uid="uid://fpfanmprexyu" path="res://scenes/quests/story_quests/ElUltimoBosque/2_ElUltimoBosque_combat/ataque/3.png" id="3_rpjoy"]
+[ext_resource type="Texture2D" uid="uid://fpfanmprexyu" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/ElUltimoBosque_stealth_components/ataque/3.png" id="3_s1n7w"]
 [ext_resource type="Texture2D" uid="uid://cb34xkmg8o82n" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/caminar/1.png" id="4_3yb8r"]
-[ext_resource type="Texture2D" uid="uid://dnmelx8ueugbr" path="res://scenes/quests/story_quests/ElUltimoBosque/2_ElUltimoBosque_combat/ataque/4.png" id="4_fnkh0"]
+[ext_resource type="Texture2D" uid="uid://dnmelx8ueugbr" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/ElUltimoBosque_stealth_components/ataque/4.png" id="4_l662q"]
 [ext_resource type="Texture2D" uid="uid://dqakb86fusq1n" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/idle/2.png" id="4_oalp1"]
+[ext_resource type="Texture2D" uid="uid://wi8hgllp0cub" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/derrota/1.png" id="5_7obxm"]
 [ext_resource type="Texture2D" uid="uid://cpj84lc3opceb" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/idle/3.png" id="5_l3u6n"]
 [ext_resource type="Texture2D" uid="uid://ctds8vtgijyfm" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/caminar/2.png" id="5_tix8p"]
+[ext_resource type="Texture2D" uid="uid://daceprniot0rn" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/derrota/2.png" id="6_3qsd5"]
 [ext_resource type="Texture2D" uid="uid://gavfruhb5r8g" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/caminar/3.png" id="6_bxyd7"]
 [ext_resource type="Texture2D" uid="uid://daio45bka82ye" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/idle/4.png" id="6_w27rc"]
 [ext_resource type="Texture2D" uid="uid://qm3v6o2w1fjn" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/idle/5.png" id="7_6wpxs"]
+[ext_resource type="Texture2D" uid="uid://dcbmj3iyuh8h0" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/derrota/3.png" id="7_rxlgs"]
 [ext_resource type="Texture2D" uid="uid://bfi4g706v02kq" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/caminar/4.png" id="7_yvbx4"]
+[ext_resource type="Texture2D" uid="uid://buy043i7fg8bc" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/derrota/4.png" id="8_67xir"]
 [ext_resource type="Texture2D" uid="uid://d0lejp47ffbs6" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/caminar/5.png" id="8_cbue4"]
 [ext_resource type="Texture2D" uid="uid://b1nkoyb8mupte" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/idle/6.png" id="8_rpjoy"]
 [ext_resource type="Texture2D" uid="uid://ns68yt7d7fyl" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/idle/7.png" id="9_fnkh0"]
+[ext_resource type="Texture2D" uid="uid://dv8npsy8veo28" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/derrota/5.png" id="9_s5d6j"]
 [ext_resource type="Texture2D" uid="uid://b48vkyyxhmel5" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/caminar/7.png" id="10_c63s3"]
 [ext_resource type="Texture2D" uid="uid://cb7xorp58il0v" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/idle/8.png" id="10_kaewf"]
 [ext_resource type="Texture2D" uid="uid://bb05ey7pos3wu" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/idle/9.png" id="11_3iva5"]
 [ext_resource type="Texture2D" uid="uid://ds4tsjdoqdp12" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/idle/10.png" id="12_acqxw"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_cu6lk"]
-atlas = ExtResource("2_qxir4")
-region = Rect2(0, 0, 192, 192)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_icahe"]
-atlas = ExtResource("2_qxir4")
-region = Rect2(192, 0, 192, 192)
+[ext_resource type="Texture2D" uid="uid://bd1qyvih4n1gs" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/derrota/11.png" id="15_b4yg2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bubfe"]
 atlas = ExtResource("3_rlbwo")
@@ -98,16 +95,16 @@ region = Rect2(0, 0, 64, 64)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_w27rc")
+"texture": ExtResource("1_stahy")
 }, {
 "duration": 1.0,
-"texture": ExtResource("2_6wpxs")
+"texture": ExtResource("2_qpe4y")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_rpjoy")
+"texture": ExtResource("3_s1n7w")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_fnkh0")
+"texture": ExtResource("4_l662q")
 }],
 "loop": true,
 "name": &"attack_01",
@@ -115,37 +112,22 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_cu6lk")
+"texture": ExtResource("5_7obxm")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_icahe")
+"texture": ExtResource("6_3qsd5")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_cu6lk")
+"texture": ExtResource("7_rxlgs")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_icahe")
+"texture": ExtResource("8_67xir")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_cu6lk")
+"texture": ExtResource("9_s5d6j")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_icahe")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_cu6lk")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_icahe")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_cu6lk")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_icahe")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_cu6lk")
+"texture": ExtResource("15_b4yg2")
 }],
 "loop": true,
 "name": &"defeated",

@@ -8649,10 +8649,10 @@ point_count = 6
 size = Vector2(168.25, 138)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q0iri"]
-size = Vector2(3803, 745)
+size = Vector2(3803, 852.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_repfn"]
-size = Vector2(1524.5, 2683.5)
+size = Vector2(1360, 2683.5)
 
 [node name="StealthTemplateLevel" type="Node2D"]
 y_sort_enabled = true
@@ -8881,11 +8881,11 @@ offset_bottom = 145.0
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(1904.5, 2961)
+position = Vector2(1904.5, 2907.25)
 shape = SubResource("RectangleShape2D_q0iri")
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
-position = Vector2(4187, 1327.25)
+position = Vector2(3351, 1327.25)
 shape = SubResource("RectangleShape2D_repfn")
