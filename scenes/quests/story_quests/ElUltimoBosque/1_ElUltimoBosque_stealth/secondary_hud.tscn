@@ -1,7 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://cvnjs70go1nfc"]
+[gd_scene load_steps=2 format=3 uid="uid://cvnjs70go1nfc"]
 
 [ext_resource type="Script" uid="uid://cwfl7kl1bae4" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/secondary_hud.gd" id="1_hpk5d"]
-[ext_resource type="Texture2D" uid="uid://baelulw1inl6s" path="res://scenes/quests/story_quests/ElUltimoBosque/09.png" id="2_g1g0d"]
 
 [node name="SecondaryHUD" type="Control"]
 layout_mode = 3
@@ -21,12 +20,12 @@ offset_bottom = 104.0
 [node name="ObjectSlot1" type="TextureRect" parent="HBoxContainer"]
 custom_minimum_size = Vector2(0, 1)
 layout_mode = 2
-texture = ExtResource("2_g1g0d")
+stretch_mode = 5
 
 [node name="ObjectSlot2" type="TextureRect" parent="HBoxContainer"]
 layout_mode = 2
-texture = ExtResource("2_g1g0d")
+stretch_mode = 5
 
 [node name="ObjectSlot3" type="TextureRect" parent="HBoxContainer"]
 layout_mode = 2
-texture = ExtResource("2_g1g0d")
+stretch_mode = 5

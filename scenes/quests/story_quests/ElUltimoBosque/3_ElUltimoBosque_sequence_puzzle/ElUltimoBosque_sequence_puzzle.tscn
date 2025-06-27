@@ -4683,13 +4683,13 @@ hint_sign = NodePath("../../Signs/HintSign2")
 [node name="SequencePuzzleStep3" type="Node2D" parent="OnTheGround/SequencePuzzle/Steps" node_paths=PackedStringArray("sequence", "hint_sign")]
 position = Vector2(0, -52)
 script = ExtResource("13_mi3la")
-sequence = [NodePath("../../Objects/Blue")]
+sequence = [NodePath("../../Objects/Blue"), NodePath("../../Objects/Yellow"), NodePath("../../Objects/Red"), NodePath("../../Objects/Blue"), NodePath("../../Objects/Green")]
 hint_sign = NodePath("../../Signs/HintSign3")
 
 [node name="SequencePuzzleStep4" type="Node2D" parent="OnTheGround/SequencePuzzle/Steps" node_paths=PackedStringArray("sequence", "hint_sign")]
 position = Vector2(0, -52)
 script = ExtResource("13_mi3la")
-sequence = [NodePath("../../Objects/Blue")]
+sequence = [NodePath("../../Objects/Blue"), NodePath("../../Objects/Purple"), NodePath("../../Objects/Yellow"), NodePath("../../Objects/Red"), NodePath("../../Objects/Blue"), NodePath("../../Objects/Purple")]
 hint_sign = NodePath("../../Signs/HintSign4")
 
 [node name="RocasPuzzle" type="Node2D" parent="OnTheGround/SequencePuzzle"]
