@@ -1,21 +1,13 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ start
-Otra vez...¿Dónde estoy ahora?¿Qué está pasado conmigo?.
-Esto...¿Qué es este lugar extraño?¿Que hago aquí?.
-¿Qué son estos botones?.
-Después de analizar la situación...
-Tengo que seguir avanzando, eso hare
-This scene includes objects that the player must tap in a particular sequence, and signs with clues on them.
-Select a "SequencePuzzleStep" node and change the array in the "Sequence" field.
-The first melody is set to yellow, green, blue. This means that you should tap those objects in that order.
-Can you guess the second sequence without looking at the Inspector?
-Otra vez... ¿Dónde estoy ahora? ¿Qué está pasando conmigo?
-Esto... ¿Qué es este lugar extraño?¿Qué hago aqui?
-¿Qué son estos botones?
-Después de analizar la situación...
-Tengo que presionar los botones en forma secuencial para continuar mi camino , eso hare
-Tengo que seguir avanzando...
+¿Otra vez…? ¿Dónde estoy ahora? Es un sueño..
+Este lugar... se siente antiguo. Como si el tiempo se hubiera detenido.
+¿Y estos símbolos? ¿Botones? Hay algo extraño aquí...
+Tal vez... si los presiono en cierto orden…
+Sí. Hay un patrón. Tengo que pensar con claridad.
+No sé por qué, pero siento que algo… o alguien… me espera al final.
+¡Vamos! Tengo que avanzar.
 => END
 ~ well_done
 Muy bien pudiste salvar a la primera persona.
