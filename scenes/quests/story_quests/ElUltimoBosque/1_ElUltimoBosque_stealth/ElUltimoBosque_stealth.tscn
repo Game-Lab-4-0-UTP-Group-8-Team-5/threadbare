@@ -8861,7 +8861,7 @@ item = ExtResource("32_vbnan")
 
 [node name="musica" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("35_6qp4n")
-volume_db = -19.169
+volume_db = -35.36
 autoplay = true
 
 [node name="ObjetosHUD" type="CanvasLayer" parent="."]

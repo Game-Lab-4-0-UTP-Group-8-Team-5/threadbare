@@ -832,7 +832,7 @@ position = Vector2(863, 125)
 
 [node name="musica" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("21_a722x")
-volume_db = -19.169
+volume_db = -49.213
 autoplay = true
 
 [connection signal="goal_reached" from="FillGameLogic" to="OnTheGround/CollectibleItem" method="reveal"]
