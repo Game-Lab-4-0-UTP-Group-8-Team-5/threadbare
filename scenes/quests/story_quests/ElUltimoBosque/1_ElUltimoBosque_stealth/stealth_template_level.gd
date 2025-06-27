@@ -1,6 +1,6 @@
 extends Node2D
 
-@onready var secondary_hud = $SecondaryHUD
+@onready var secondary_hud = $ObjetosHUD/SecondaryHUD
 @onready var obstacle = $TileMapLayers/StaticBody2D
 
 

@@ -8859,13 +8859,15 @@ position = Vector2(2338, 1340)
 script = ExtResource("30_0goas")
 item = ExtResource("32_vbnan")
 
-[node name="SecondaryHUD" parent="." instance=ExtResource("33_nrtqh")]
-offset_left = 1206.0
-offset_top = 62.0
-offset_right = 1531.0
-offset_bottom = 142.0
-
 [node name="musica" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("35_6qp4n")
 volume_db = -19.169
 autoplay = true
+
+[node name="ObjetosHUD" type="CanvasLayer" parent="."]
+
+[node name="SecondaryHUD" parent="ObjetosHUD" instance=ExtResource("33_nrtqh")]
+offset_left = 1174.0
+offset_top = 65.0
+offset_right = 1499.0
+offset_bottom = 145.0
