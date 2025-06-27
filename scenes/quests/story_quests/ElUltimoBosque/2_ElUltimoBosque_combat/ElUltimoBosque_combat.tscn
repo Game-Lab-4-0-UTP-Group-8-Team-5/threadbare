@@ -1,7 +1,6 @@
-[gd_scene load_steps=32 format=4 uid="uid://drpg1pub4rsdk"]
+[gd_scene load_steps=31 format=4 uid="uid://drpg1pub4rsdk"]
 
 [ext_resource type="Script" uid="uid://cp54mgi54nywo" path="res://scenes/game_logic/fill_game_logic.gd" id="1_a5g7v"]
-[ext_resource type="Resource" uid="uid://3vrn5jdxov37" path="res://scenes/quests/story_quests/template/2_template_combat/template_combat_components/template_combat.dialogue" id="2_qivhp"]
 [ext_resource type="Resource" uid="uid://cmtqwn6mwfall" path="res://scenes/quests/story_quests/ElUltimoBosque/2_ElUltimoBosque_combat/ElUltimoBosque_combat_components/ElUltimoBosque_combat.dialogue" id="2_u7uyv"]
 [ext_resource type="TileSet" uid="uid://07fq3rspk8ia" path="res://scenes/tileset.tres" id="3_cb3c4"]
 [ext_resource type="Texture2D" uid="uid://blnmgggh54lsx" path="res://scenes/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Terrain/Tilemap_color2.png" id="4_57xwe"]
@@ -789,7 +788,7 @@ position = Vector2(929, 523)
 revealed = false
 next_scene = "uid://c5kldf86idq5b"
 item = ExtResource("18_a722x")
-collected_dialogue = ExtResource("2_qivhp")
+collected_dialogue = ExtResource("2_u7uyv")
 dialogue_title = &"well_done"
 
 [node name="ScreenOverlay" type="CanvasLayer" parent="."]

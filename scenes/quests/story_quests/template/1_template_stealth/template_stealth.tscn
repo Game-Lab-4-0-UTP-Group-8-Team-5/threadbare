@@ -32,7 +32,6 @@ size = Vector2(168.25, 122)
 script = ExtResource("10_tbnoi")
 name = ""
 type = 0
-source_game = 0
 metadata/_custom_type_script = "uid://bgmwplmj3bfls"
 
 [node name="StealthTemplateLevel" type="Node2D"]
