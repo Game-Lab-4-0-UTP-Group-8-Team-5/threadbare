@@ -1,4 +1,4 @@
-[gd_scene load_steps=80 format=4 uid="uid://b3oop4r0tuxt7"]
+[gd_scene load_steps=82 format=4 uid="uid://b3oop4r0tuxt7"]
 
 [ext_resource type="Script" uid="uid://ds7f8c20wcf2u" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/stealth_template_level.gd" id="1_q0iri"]
 [ext_resource type="Script" uid="uid://dnp0tjloec2d7" path="res://scenes/game_logic/stealth_game_logic.gd" id="1_s72hk"]
@@ -8648,6 +8648,12 @@ point_count = 6
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_idy4y"]
 size = Vector2(168.25, 138)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q0iri"]
+size = Vector2(3803, 745)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_repfn"]
+size = Vector2(1524.5, 2683.5)
+
 [node name="StealthTemplateLevel" type="Node2D"]
 y_sort_enabled = true
 script = ExtResource("1_q0iri")
@@ -8871,3 +8877,15 @@ offset_left = 1174.0
 offset_top = 65.0
 offset_right = 1499.0
 offset_bottom = 145.0
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1904.5, 2961)
+shape = SubResource("RectangleShape2D_q0iri")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2(4187, 1327.25)
+shape = SubResource("RectangleShape2D_repfn")
