@@ -248,11 +248,12 @@ projectile_duration = 100.0
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 unique_name_in_owner = true
-position = Vector2(0, -32)
-scale = Vector2(4.125, 4.16177)
+position = Vector2(-5, -36)
+scale = Vector2(1.30625, 1.1875)
 sprite_frames = ExtResource("2_cvpou")
 animation = &"walk"
 autoplay = "idle"
+speed_scale = 0.4
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
