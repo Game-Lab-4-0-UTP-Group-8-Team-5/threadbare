@@ -734,7 +734,7 @@ y_sort_enabled = true
 position = Vector2(970, 504)
 
 [node name="ThrowingNPC" parent="OnTheGround" instance=ExtResource("5_u8bjq")]
-position = Vector2(112, 924)
+position = Vector2(153, 959)
 scale = Vector2(2, 2)
 projectile_speed = 150.0
 projectile_duration = 40.0
