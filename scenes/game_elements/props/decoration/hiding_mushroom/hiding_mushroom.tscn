@@ -135,7 +135,7 @@ frame_progress = 0.232213
 
 [node name="PlayerDetector" type="Area2D" parent="."]
 unique_name_in_owner = true
-collision_layer = 4
+collision_layer = 5
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerDetector"]
 shape = SubResource("CircleShape2D_v208a")
