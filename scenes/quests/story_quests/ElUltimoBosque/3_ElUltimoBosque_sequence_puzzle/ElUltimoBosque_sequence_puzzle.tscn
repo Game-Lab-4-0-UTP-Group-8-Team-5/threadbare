@@ -1,4 +1,4 @@
-[gd_scene load_steps=95 format=4 uid="uid://euwow6oc8gcn"]
+[gd_scene load_steps=97 format=4 uid="uid://euwow6oc8gcn"]
 
 [ext_resource type="TileSet" uid="uid://07fq3rspk8ia" path="res://scenes/tileset.tres" id="1_cfqmc"]
 [ext_resource type="Texture2D" uid="uid://dfcqo1qmslo5q" path="res://scenes/Pixel Art Top Down - Basic v1.2.0/Texture/TX Props.png" id="2_otqly"]
@@ -4463,6 +4463,12 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h8i2q"]
+size = Vector2(50, 90)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1bgs3"]
+size = Vector2(92, 101)
+
 [node name="SequencePuzzleTemplate" type="Node2D"]
 
 [node name="TileMapLayers" type="Node2D" parent="."]
@@ -4708,5 +4714,15 @@ metadata/_custom_type_script = "uid://x1mxt6bmei2o"
 stream = ExtResource("46_2nv3i")
 volume_db = -45.465
 autoplay = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-57, 755)
+shape = SubResource("RectangleShape2D_h8i2q")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1484, 904)
+shape = SubResource("RectangleShape2D_1bgs3")
 
 [connection signal="solved" from="OnTheGround/SequencePuzzle" to="OnTheGround/CollectibleItem" method="reveal"]
