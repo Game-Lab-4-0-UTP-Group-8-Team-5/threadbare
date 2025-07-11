@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://l2uabb8md4x1"]
 
-[ext_resource type="Texture2D" uid="uid://bi1biegt3pt6j" path="res://scenes/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Decorations/Trees/Tree3.png" id="1_gqfxi"]
+[ext_resource type="Texture2D" uid="uid://bi1biegt3pt6j" path="res://scenes/quests/story_quests/ElUltimoBosque/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Decorations/Trees/Tree3.png" id="1_gqfxi"]
 [ext_resource type="Script" uid="uid://gd5xruijha12" path="res://scenes/quests/story_quests/ElUltimoBosque/2_ElUltimoBosque_combat/arboles_2.gd" id="2_454b0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6rx68"]

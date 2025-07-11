@@ -1,6 +1,6 @@
 [gd_resource type="TileSet" load_steps=53 format=3 uid="uid://07fq3rspk8ia"]
 
-[ext_resource type="Texture2D" uid="uid://n6fjuqkgfd5x" path="res://scenes/Pixel Art Top Down - Basic v1.2.0/Texture/Extra/TX Plant.png" id="1_em2qm"]
+[ext_resource type="Texture2D" uid="uid://n6fjuqkgfd5x" path="res://scenes/quests/story_quests/ElUltimoBosque/Pixel Art Top Down - Basic v1.2.0/Texture/Extra/TX Plant.png" id="1_rtvgy"]
 [ext_resource type="Texture2D" uid="uid://lg5dl13njsg3" path="res://assets/first_party/tiles/Grass_And_Sand_Tiles.png" id="2_jmclm"]
 [ext_resource type="Texture2D" uid="uid://cexg7otw5enpu" path="res://assets/third_party/tiny-swords/Terrain/Water/Foam/Foam.png" id="3_ge83f"]
 [ext_resource type="Texture2D" uid="uid://calg7ty6q5ali" path="res://assets/first_party/tiles/Void_Tiles_Stars_Level2.png" id="3_y1c8q"]
@@ -11,9 +11,9 @@
 [ext_resource type="Texture2D" uid="uid://bx0rjuka8krb5" path="res://assets/third_party/tiny-swords/Terrain/Ground/Tilemap_Elevation.png" id="6_qhdiu"]
 [ext_resource type="Texture2D" uid="uid://pkm6smjl8861" path="res://assets/first_party/tiles/Grass_Tiles_Light.png" id="6_yc5yt"]
 [ext_resource type="Texture2D" uid="uid://dcq6v7mx3h1fl" path="res://assets/first_party/tiles/Dirt_Tiles.png" id="7_1srhd"]
-[ext_resource type="Texture2D" uid="uid://blnmgggh54lsx" path="res://scenes/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Terrain/Tilemap_color2.png" id="7_em2qm"]
+[ext_resource type="Texture2D" uid="uid://blnmgggh54lsx" path="res://scenes/quests/story_quests/ElUltimoBosque/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Terrain/Tilemap_color2.png" id="7_nwor3"]
+[ext_resource type="Texture2D" uid="uid://d4nu8oa5y2od3" path="res://scenes/quests/story_quests/ElUltimoBosque/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Terrain/Water Background color.png" id="8_b6t53"]
 [ext_resource type="Texture2D" uid="uid://cledckq31klvq" path="res://assets/first_party/tiles/Cliff_Mines_Tiles.png" id="8_l50s2"]
-[ext_resource type="Texture2D" uid="uid://d4nu8oa5y2od3" path="res://scenes/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Terrain/Water Background color.png" id="8_rtvgy"]
 [ext_resource type="Texture2D" uid="uid://r7scukca5yro" path="res://assets/first_party/tiles/Void_Tiles_Empty.png" id="9_hqjx3"]
 [ext_resource type="Texture2D" uid="uid://cn2j018vohdap" path="res://assets/first_party/tiles/Void_Tiles_Stars_Level1.png" id="10_kbenk"]
 
@@ -39,7 +39,7 @@ tile_data = PackedInt32Array(0, 327681, 3, 1, 393217, 3, 2, 458753, 3)
 tile_data = PackedInt32Array(0, 4, 7, 1, 65540, 7, 2, 131076, 7)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sugp2"]
-texture = ExtResource("1_em2qm")
+texture = ExtResource("1_rtvgy")
 texture_region_size = Vector2i(64, 64)
 0:0/next_alternative_id = 3
 0:0/0 = 0
@@ -565,7 +565,7 @@ texture_region_size = Vector2i(64, 64)
 3:7/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rtvgy"]
-texture = ExtResource("7_em2qm")
+texture = ExtResource("7_nwor3")
 texture_region_size = Vector2i(64, 64)
 1:0/0 = 0
 2:0/0 = 0
@@ -667,7 +667,7 @@ texture_region_size = Vector2i(64, 64)
 9:7/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nwor3"]
-texture = ExtResource("8_rtvgy")
+texture = ExtResource("8_b6t53")
 texture_region_size = Vector2i(64, 64)
 0:0/0 = 0
 
