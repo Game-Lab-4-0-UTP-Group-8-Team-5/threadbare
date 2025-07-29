@@ -1,4 +1,4 @@
-[gd_scene load_steps=66 format=4 uid="uid://b3oop4r0tuxt7"]
+[gd_scene load_steps=65 format=4 uid="uid://b3oop4r0tuxt7"]
 
 [ext_resource type="Script" uid="uid://ds7f8c20wcf2u" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/stealth_template_level.gd" id="1_q0iri"]
 [ext_resource type="Script" uid="uid://dnp0tjloec2d7" path="res://scenes/game_logic/stealth_game_logic.gd" id="1_s72hk"]
@@ -18,15 +18,14 @@
 [ext_resource type="Texture2D" uid="uid://baelulw1inl6s" path="res://scenes/quests/story_quests/ElUltimoBosque/09.png" id="16_83spq"]
 [ext_resource type="Resource" uid="uid://ksocwbq5dowx" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/ElUltimoBosque_stealth_components/ElUltimoBosque_checkpoint.dialogue" id="23_ycp5s"]
 [ext_resource type="Resource" uid="uid://bt1sbpfg8k6vi" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/item2.tres" id="25_6qp4n"]
+[ext_resource type="AudioStream" uid="uid://c0xmi3jpjc8ac" path="res://scenes/quests/story_quests/ElUltimoBosque/3_ElUltimoBosque_sequence_puzzle/idle/Musica.WAV" id="26_6ycr1"]
 [ext_resource type="Script" uid="uid://0lvklnh7jpf" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/ElUltimoBosque_stealth_components/Script_Hijo_Cinematica_.gd" id="28_q0iri"]
 [ext_resource type="Resource" uid="uid://bkqpg50ubhsai" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/ElUltimoBosque_stealth_components/ElUltimoBosque_stealth.dialogue" id="29_0goas"]
 [ext_resource type="Script" uid="uid://d6naeujskfyk" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/CollectibleItemSecondary.gd" id="30_0goas"]
 [ext_resource type="Resource" uid="uid://yglt7emcixkt" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/objeto1.tres" id="30_ycp5s"]
-[ext_resource type="AudioStream" uid="uid://eraygn6ow5lc" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/ElUltimoBosque_stealth_components/beilstone1.WAV" id="31_0goas"]
 [ext_resource type="Resource" uid="uid://coiwex1434qnn" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/objeto2.tres" id="31_nrtqh"]
 [ext_resource type="Resource" uid="uid://dua4j02gc3uth" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/objeto3.tres" id="32_vbnan"]
 [ext_resource type="PackedScene" uid="uid://cvnjs70go1nfc" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/secondary_hud.tscn" id="33_nrtqh"]
-[ext_resource type="AudioStream" uid="uid://c7eifgh2di72j" path="res://scenes/quests/story_quests/ElUltimoBosque/1_ElUltimoBosque_stealth/musica.WAV" id="35_6qp4n"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1wbk4"]
 texture = ExtResource("3_shiwe")
@@ -1205,10 +1204,6 @@ metadata/_custom_type_script = "uid://x1mxt6bmei2o"
 
 [node name="Arbustos" type="Node" parent="."]
 
-[node name="Beilstone1" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("31_0goas")
-volume_db = -31.105
-
 [node name="CollectibleItem2" parent="." instance=ExtResource("8_m76s4")]
 position = Vector2(2489, 2317)
 script = ExtResource("30_0goas")
@@ -1223,11 +1218,6 @@ item = ExtResource("31_nrtqh")
 position = Vector2(2338, 1340)
 script = ExtResource("30_0goas")
 item = ExtResource("32_vbnan")
-
-[node name="musica" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("35_6qp4n")
-volume_db = -35.36
-autoplay = true
 
 [node name="ObjetosHUD" type="CanvasLayer" parent="."]
 
@@ -1262,3 +1252,7 @@ shape = SubResource("RectangleShape2D_04lv3")
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D3"]
 position = Vector2(1843.25, -9)
 shape = SubResource("RectangleShape2D_omdkc")
+
+[node name="Musica" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("26_6ycr1")
+autoplay = true
