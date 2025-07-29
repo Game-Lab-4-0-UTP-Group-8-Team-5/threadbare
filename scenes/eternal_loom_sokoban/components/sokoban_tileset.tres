@@ -1,8 +1,7 @@
-[gd_resource type="TileSet" load_steps=21 format=3 uid="uid://dkxd0jkirs8u7"]
+[gd_resource type="TileSet" load_steps=19 format=3 uid="uid://dkxd0jkirs8u7"]
 
 [ext_resource type="PackedScene" uid="uid://bbjg1gjpdb8cy" path="res://scenes/eternal_loom_sokoban/components/wall/wall_2.tscn" id="1_tdg3x"]
 [ext_resource type="PackedScene" uid="uid://eqryk50e37b2" path="res://scenes/eternal_loom_sokoban/components/clump/clump_target.tscn" id="4_p0frn"]
-[ext_resource type="Texture2D" uid="uid://bboyofe5jc4xc" path="res://scenes/quests/story_quests/ElUltimoBosque/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Decorations/Rocks/Rock1.png" id="6_ivdhp"]
 [ext_resource type="PackedScene" uid="uid://bw2bk7hvohx53" path="res://scenes/eternal_loom_sokoban/components/player/sokoban_player.tscn" id="8_a37yu"]
 [ext_resource type="Texture2D" uid="uid://cngn8vxpim77v" path="res://assets/third_party/tiny-swords/Deco/02.png" id="8_byh37"]
 [ext_resource type="Texture2D" uid="uid://cw330muutqql7" path="res://assets/third_party/tiny-swords/Deco/05.png" id="9_a8amo"]
@@ -20,12 +19,6 @@ scenes/3/scene = ExtResource("4_p0frn")
 scenes/4/scene = ExtResource("9_rmyfg")
 scenes/5/scene = ExtResource("1_tdg3x")
 scenes/6/scene = ExtResource("8_a37yu")
-
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p0frn"]
-texture = ExtResource("6_ivdhp")
-texture_region_size = Vector2i(64, 64)
-0:0/0 = 0
-0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-0.267348, -0.253981, 0.173777, -0.307451, 0.0935721, 0.160409, -0.267348, 0.240614)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cpxc1"]
 texture = ExtResource("12_dfeo6")
@@ -5165,7 +5158,6 @@ terrain_set_0/terrain_0/name = "Terrain 0"
 terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)
 sources/0 = SubResource("TileSetScenesCollectionSource_ef8tg")
 sources/2 = SubResource("TileSetAtlasSource_cpxc1")
-sources/1 = SubResource("TileSetAtlasSource_p0frn")
 sources/3 = SubResource("TileSetAtlasSource_xwi4o")
 sources/4 = SubResource("TileSetAtlasSource_8kad8")
 sources/5 = SubResource("TileSetAtlasSource_m2brw")
