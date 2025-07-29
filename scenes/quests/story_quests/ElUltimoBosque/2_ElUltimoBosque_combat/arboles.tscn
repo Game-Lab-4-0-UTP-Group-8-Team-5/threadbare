@@ -1,66 +1,38 @@
-[gd_scene load_steps=13 format=3 uid="uid://l2uabb8md4x1"]
+[gd_scene load_steps=9 format=3 uid="uid://l2uabb8md4x1"]
 
-[ext_resource type="Texture2D" uid="uid://bi1biegt3pt6j" path="res://scenes/quests/story_quests/ElUltimoBosque/Tiny Swords (Free Pack)/Tiny Swords (Free Pack)/Decorations/Trees/Tree3.png" id="1_gqfxi"]
+[ext_resource type="Texture2D" uid="uid://bcrkdnx7vbvga" path="res://assets/third_party/tiny-swords/Resources/Trees/Tree.png" id="1_gqfxi"]
 [ext_resource type="Script" uid="uid://gd5xruijha12" path="res://scenes/quests/story_quests/ElUltimoBosque/2_ElUltimoBosque_combat/arboles_2.gd" id="2_454b0"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_6rx68"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_454b0"]
 atlas = ExtResource("1_gqfxi")
 region = Rect2(0, 0, 192, 192)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_vu7cx"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ou37"]
 atlas = ExtResource("1_gqfxi")
 region = Rect2(192, 0, 192, 192)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_u7uyv"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_wox5o"]
 atlas = ExtResource("1_gqfxi")
 region = Rect2(384, 0, 192, 192)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_a722x"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ybxh"]
 atlas = ExtResource("1_gqfxi")
 region = Rect2(576, 0, 192, 192)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_y2vmp"]
-atlas = ExtResource("1_gqfxi")
-region = Rect2(768, 0, 192, 192)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_hm2au"]
-atlas = ExtResource("1_gqfxi")
-region = Rect2(960, 0, 192, 192)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_bcfpt"]
-atlas = ExtResource("1_gqfxi")
-region = Rect2(1152, 0, 192, 192)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_yl3b3"]
-atlas = ExtResource("1_gqfxi")
-region = Rect2(1344, 0, 192, 192)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_x8xlw"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_6rx68")
+"texture": SubResource("AtlasTexture_454b0")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_vu7cx")
+"texture": SubResource("AtlasTexture_1ou37")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_u7uyv")
+"texture": SubResource("AtlasTexture_wox5o")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_a722x")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_y2vmp")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_hm2au")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_bcfpt")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_yl3b3")
+"texture": SubResource("AtlasTexture_6ybxh")
 }],
 "loop": true,
 "name": &"arbol",
@@ -78,7 +50,7 @@ collision_mask = 0
 [node name="arbolesCuerpo" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_x8xlw")
 animation = &"arbol"
-frame_progress = 0.716885
+frame_progress = 0.189538
 script = ExtResource("2_454b0")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
